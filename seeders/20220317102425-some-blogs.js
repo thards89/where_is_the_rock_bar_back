@@ -6,27 +6,14 @@ module.exports = {
       "blogs",
       [
         {
-          title: "Fort visit",
+          title: "Heavy Metal Night in Eindhoven",
           description:
             "Locate at muiden.Its a huge fort.We can spend whole day.Its amazing experience.jfsjgfsjgjksdgfkdjsfgdsjfgsdjgfksgjskruritrgjbgdmngbjsrstsjkbsmgurtysrjk,bmjrgituertksejhjkfbsjgsr",
           mainImageUrl:
-            "https://nieuwehollandsewaterlinie.nl/app/uploads/2018/01/Muiderslot-600x399.jpg",
-          name_of_place: "Muiden Fort",
-          location: "Muiden",
+            "https://www.thisiseindhoven.com/getmedia/b2221c0d-f1cc-4d52-8a71-e32c7737f449/Cafe-the-Jack.jpg",
+          name_of_place: "Café The Jack",
+          location: "Eindhoven",
           visitedOn: "09/08/2021",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-          userId: 1,
-        },
-        {
-          title: "Mini Amsterdam",
-          description: `Located near Den haag.Best place visited so far.Its amazing experience.
-          jfsjgfsjgjksdgfkdjsfgdsjfgsdjgfksgjskruritrgjbgdmngbjsrstsjkbsmgurtysrjk,bmjrgituertksejhjkfbsjgsr`,
-          mainImageUrl:
-            "https://www.netherlands-tourism.com/wp-content/uploads/2013/11/Madurodam-Netherlands.jpg",
-          name_of_place: "Madurodam",
-          location: "Den haag",
-          visitedOn: "05/01/2022",
           createdAt: new Date(),
           updatedAt: new Date(),
           userId: 1,

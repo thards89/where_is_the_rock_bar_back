@@ -6,27 +6,12 @@ module.exports = {
       "moreImages",
       [
         {
-          ImageUrl:"https://nl.wikipedia.org/wiki/Westbatterij#/media/Bestand:Overzicht_westbatterij_-_Muiden_-_20340676_-_RCE.jpg",
+          ImageUrl:"https://pr1.nicelocal.co.nl/zSgE_vs7sVMiaW12lvx8eg/640x360,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2e9d7-5rmHvDLLQ_O0ROKw5jvFh6yKjSLoJio9zhAaPLkyT4ZReGE_VjDXD3UBcqcQ",
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          ImageUrl:"https://nieuwehollandsewaterlinie.nl/app/uploads/2018/04/Westbatterij-Muiden-met-vlag-600x399.jpg",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          ImageUrl:"https://cdn.getyourguide.com/img/location/5db943f5e0bec.jpeg/88.jpg",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          ImageUrl:"https://www.madurodam.nl/sites/madurodam_corp/files/Entree%20van%20Madurodam%20%28bron%20Madurodam%29.jpg",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          ImageUrl:"https://media-cdn.tripadvisor.com/media/photo-s/10/be/24/f3/caption.jpg",
+          ImageUrl:"https://media.indebuurt.nl/eindhoven/2017/03/14015645/the-jack-eindhoven.jpg",
           createdAt: new Date(),
           updatedAt: new Date(),
         },

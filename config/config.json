@@ -1,23 +1,26 @@
 {
   "development": {
-    "url": "postgres://vknbricv:412cXeiT3FNu7OaQOpXt6AbvSrMEDn5M@abul.db.elephantsql.com/vknbricv",
+    "url": "postgres://sxwipixuyqcvxv:0a4bdb21693f84ef2ea58e490d8869584a99e31800f05e56a855bf372061db4a@ec2-54-158-247-210.compute-1.amazonaws.com:5432/d53md6nqjsuald",
     "dialect": "postgres",
-    "operatorsAliases": "0"
-  },
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+    }}},
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "url": "postgres://sxwipixuyqcvxv:0a4bdb21693f84ef2ea58e490d8869584a99e31800f05e56a855bf372061db4a@ec2-54-158-247-210.compute-1.amazonaws.com:5432/d53md6nqjsuald",
     "dialect": "postgres",
-    "operatorsAliases": "0"
-  },
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+  }}},
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "url": "postgres://sxwipixuyqcvxv:0a4bdb21693f84ef2ea58e490d8869584a99e31800f05e56a855bf372061db4a@ec2-54-158-247-210.compute-1.amazonaws.com:5432/d53md6nqjsuald",
     "dialect": "postgres",
-    "operatorsAliases": "0"
-  }
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+  }}}
 }
