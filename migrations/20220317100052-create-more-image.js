@@ -14,10 +14,7 @@ module.exports = {
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        get: function() { // or use get(){ }
-          return this.getDataValue('createdAt')
-            .toLocaleString('en-GB', { timeZone: 'UTC' });
-        }
+
       },
       updatedAt: {
         allowNull: false,

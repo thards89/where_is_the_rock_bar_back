@@ -39,6 +39,7 @@ router.post("/createblog", async (req, res) => {
 
   return res.status(201).send({ message: "Blog created", blog: wholeBlog });
 });
+
 router.get("/viewblog", async (req, res) => {
   try {
     const getblog = await Blog.findAll({
@@ -57,6 +58,10 @@ router.get("/viewblogwithusername", async (req, res) => {
         model: User,
         attributes: ["name"],
       },
+      order: [
+        ['createdAt', 'DESC'],
+    ],
+
     });
     res.send(getBlogWithUserName);
   } catch (e) {
