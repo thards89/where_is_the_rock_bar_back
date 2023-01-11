@@ -1,6 +1,7 @@
 const axios = require("axios");
 
 const { Router } = require("express");
+const { apiKey } = require("../config/apiConfig");
 
 const router = new Router();
 
@@ -14,7 +15,7 @@ router.post("/homeData", async (req, res) => {
         location: `${lat},${lng}`,
         radius: `${radius}`,
         type: `${placeType}`,
-        key: "AIzaSyD0kzAGWHAUK4AjGeEqWK0x5GAYCXhaz2g",
+        key: `${apiKey}`
       },
     }
   );
