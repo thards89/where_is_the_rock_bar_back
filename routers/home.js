@@ -14,7 +14,7 @@ router.post("/homeData", async (req, res) => {
         location: `${lat},${lng}`,
         radius: `${radius}`,
         type: `${placeType}`,
-        key: "AIzaSyDGnhMSdxZWn2pTKvaimAKqZif3PqA7LwY",
+        key: "AIzaSyD0kzAGWHAUK4AjGeEqWK0x5GAYCXhaz2g",
       },
     }
   );
