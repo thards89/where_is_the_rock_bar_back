@@ -3,6 +3,8 @@ const axios = require("axios");
 const { Router } = require("express");
 const { apiKey } = require("../config/apiConfig");
 
+console.log(apiKey)
+
 const router = new Router();
 
 router.post("/homeData", async (req, res) => {

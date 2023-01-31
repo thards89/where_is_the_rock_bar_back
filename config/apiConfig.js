@@ -1,0 +1,1 @@
+module.exports = {apiKey: "AIzaSyD0kzAGWHAUK4AjGeEqWK0x5GAYCXhaz2g"}

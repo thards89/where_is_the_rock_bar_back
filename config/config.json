@@ -22,6 +22,10 @@
   }}},
   "production": {
     "url": "postgres://glaixrdtjcjcey:f9c3ffe61677898ac06c14bd44ae235ebe029e3100d58c507ce6ca108ffc7646@ec2-52-86-115-245.compute-1.amazonaws.com:5432/dgimrfapdb0gh",
+    "username": "ettzaerf",
+    "password": "Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ",
+    "database": "postgres",
+    "host": "elephant",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
