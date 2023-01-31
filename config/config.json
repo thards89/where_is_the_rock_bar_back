@@ -25,7 +25,7 @@
     "username": "ettzaerf",
     "password": "Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ",
     "database": "postgres",
-    "host": "localhost",
+    "host": "0.0.0.0:$PORT",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
