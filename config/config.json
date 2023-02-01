@@ -1,10 +1,10 @@
 {
   "development": {
-    "username": "ettzaerf",
-      "password": "Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ",
-      "database": "postgres",
-      "host": "localhost",
-      "url": "postgres://ettzaerf:Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ@jelani.db.elephantsql.com/ettzaerf",
+    "username": "aobxkmdk",
+      "password": "nIcRIAbadFdBwnVlAPZ-XhoxO6D-Pr6x",
+      "database": "aobxkmdk",
+      "host": "fanny.db.elephantsql.com",
+      "url": "postgres://aobxkmdk:nIcRIAbadFdBwnVlAPZ-XhoxO6D-Pr6x@fanny.db.elephantsql.com/aobxkmdk",
       "operatorsAliases": "0",
       "dialect": "postgres",
     "dialectOptions": {
@@ -13,7 +13,7 @@
         "rejectUnauthorized": false
     }}},
   "test": {
-    "url": "postgres://ettzaerf:Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ@jelani.db.elephantsql.com/ettzaerf",
+    "url": "postgres://aobxkmdk:nIcRIAbadFdBwnVlAPZ-XhoxO6D-Pr6x@fanny.db.elephantsql.com/aobxkmdk",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -21,11 +21,11 @@
         "rejectUnauthorized": false
   }}},
   "production": {
-    "url": "postgres://ettzaerf:Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ@jelani.db.elephantsql.com/ettzaerf",
-    "username": "ettzaerf",
-    "password": "Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ",
-    "database": "jelani",
-    "host": "0.0.0.0",
+    "url": "postgres://aobxkmdk:nIcRIAbadFdBwnVlAPZ-XhoxO6D-Pr6x@fanny.db.elephantsql.com/aobxkmdk",
+    "username": "aobxkmdk",
+    "password": "nIcRIAbadFdBwnVlAPZ-XhoxO6D-Pr6x",
+    "database": "aobxkmdk",
+    "host": "fanny.db.elephantsql.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
