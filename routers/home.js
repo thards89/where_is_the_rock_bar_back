@@ -2,8 +2,11 @@ const axios = require("axios");
 
 const { Router } = require("express");
 const { apiKey } = require("../config/apiConfig");
+const corsMiddleWare = require("cors");
 
 const router = new Router();
+
+app.use(corsMiddleWare());
 
 router.post("/homeData", async (req, res) => {
   const { lat, lng, radius, placeType } = req.body;
