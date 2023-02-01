@@ -4,7 +4,7 @@
       "password": "Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ",
       "database": "postgres",
       "host": "localhost",
-      "url": "postgres://glaixrdtjcjcey:f9c3ffe61677898ac06c14bd44ae235ebe029e3100d58c507ce6ca108ffc7646@ec2-52-86-115-245.compute-1.amazonaws.com:5432/dgimrfapdb0gh",
+      "url": "postgres://ettzaerf:Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ@jelani.db.elephantsql.com/ettzaerf",
       "operatorsAliases": "0",
       "dialect": "postgres",
     "dialectOptions": {
@@ -13,7 +13,7 @@
         "rejectUnauthorized": false
     }}},
   "test": {
-    "url": "postgres://glaixrdtjcjcey:f9c3ffe61677898ac06c14bd44ae235ebe029e3100d58c507ce6ca108ffc7646@ec2-52-86-115-245.compute-1.amazonaws.com:5432/dgimrfapdb0gh",
+    "url": "postgres://ettzaerf:Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ@jelani.db.elephantsql.com/ettzaerf",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -21,10 +21,10 @@
         "rejectUnauthorized": false
   }}},
   "production": {
-    "url": "postgres://glaixrdtjcjcey:f9c3ffe61677898ac06c14bd44ae235ebe029e3100d58c507ce6ca108ffc7646@ec2-52-86-115-245.compute-1.amazonaws.com:5432/dgimrfapdb0gh",
+    "url": "postgres://ettzaerf:Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ@jelani.db.elephantsql.com/ettzaerf",
     "username": "ettzaerf",
     "password": "Wu9FlVefr9IQCkBmDh9RpjUg25jL14JJ",
-    "database": "jelani.db",
+    "database": "jelani",
     "host": "0.0.0.0",
     "dialect": "postgres",
     "dialectOptions": {
