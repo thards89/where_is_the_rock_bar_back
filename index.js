@@ -1,5 +1,5 @@
 const express = require("express");
-const corsMiddleWare = require("cors");
+const cors = require("cors");
 // Auth middleware: our own code. Checks for the existence of a token in a header called `authentication`.
 const authMiddleWare = require("./auth/middleware");
 const auth = require("./routers/auth");
